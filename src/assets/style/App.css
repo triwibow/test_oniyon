@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: #71caf0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    -webkit-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.75); 
+    box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.75);
+}
+
+.navbar-logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo-title h2 {
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.navbar-logo-title span {
+    font-size: 18px;
+    color: #000;
+}
+
+.navbar-menu {
+    
+}
+
+.navbar-menu ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.navbar-menu ul li {
+    margin-left: 20px;
+}
+
+
+.card-schedule {
+    border-radius: 5px;
+    padding: 20px 20px;
+    border: 1px solid transparent;
+}
+
+.custom-select {
+    border: 1px solid transparent;
+    padding: 18px 20px;
+}
+
+.footer-link {
+    list-style-type: none;
+    color: rgba(255,255,255,0.5);
+    padding-inline-start: 0;
+}
+
+.border-right {
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
